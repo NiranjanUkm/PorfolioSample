@@ -97,3 +97,26 @@ body {
 .contact-me{
     aspect-ratio: 6/1;
 }
+.dynamic-text{
+    
+    /* font-family: 'Courier New', Courier, monospace; */
+    position: relative;
+    color: #def71c;
+}
+.dynamic-text::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    background: #161616;
+    border-left: 2px solid white;
+    animation: typing 3.5s steps(15) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
