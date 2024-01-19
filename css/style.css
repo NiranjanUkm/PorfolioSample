@@ -75,12 +75,24 @@ body {
 }
 
 /* ABOUT ME */
-.about-me .head {
+.about-me .abt-head-left {
     font-size: xx-large;
     background-image: linear-gradient(to right, transparent, white 700%);
+}
+.about-me .abt-head-right {
+    font-size: xx-large;
+    background-image: linear-gradient(to left, transparent, white 700%);
+    align-items: right;
 }
 @media (max-width: 768px) {
     .about-me {
         padding-left: 2rem !important;
     }
+}
+.about-me .abt-tail .tail-left{
+    text-align: justify;
+    text-justify: inter-character;
+}
+.contact-me{
+    aspect-ratio: 6/1;
 }
