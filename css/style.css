@@ -9,6 +9,27 @@ body {
     color: white;
 }
 
+.scrollbar-cyan::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #100f0f;
+    /* border-radius: 10px; */
+}
+
+.scrollbar-cyan::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+    /* border-radius: 10px; */
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #def71c;
+}
+
+.scrollbar-cyan {
+    scrollbar-color: #def71c #F5F5F5;
+}
+
 /* HEADER */
 .custom-navbar {
     padding: 0px 6rem;
@@ -97,6 +118,16 @@ body {
 .contact-me{
     aspect-ratio: 6/1;
 }
+.contact-me i:hover{
+    color: #def71c;
+    cursor: pointer;
+    
+}
+.hover:hover{
+    color: #def71c;
+    cursor: pointer;
+}
+
 .dynamic-text{
     
     /* font-family: 'Courier New', Courier, monospace; */
