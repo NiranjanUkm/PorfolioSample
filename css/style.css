@@ -113,6 +113,7 @@ body {
     background: #161616;
     border-left: 2px solid white;
     animation: typing 3.5s steps(15) infinite;
+    
 }
 @keyframes typing{
     100%{
@@ -120,3 +121,12 @@ body {
         margin: 0 -35px 0 35px;
     }
 }
+
+@media (max-width: 767.98px) {
+    .custom-navbar {
+      position: sticky;
+      right: 0;
+      
+    }
+    
+  }
