@@ -161,3 +161,32 @@ body {
     }
     
   }
+/* SKILLS */
+.skills .skills-head{
+    font-size: xx-large;
+    background-image: linear-gradient(to right, transparent, white 700%);
+}
+.progress-bar{
+    background-color: #b6cb18;
+}
+.skill-icon{
+    align-items: center;
+    display: flex;
+    top: 5px;
+    position: relative;
+}
+.skills{
+    position: relative;
+}
+.skills-tale{
+    /* position: absolute; */
+    /* width: 50%; */
+    /* margin: 0px 2%; */
+}
+
+.js-icon {
+    font-size: calc(1.375rem + 1.2vw)!important;
+}
+.skills-tale{
+    padding-bottom: 40px;
+}
