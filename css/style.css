@@ -127,7 +127,9 @@ body {
     color: #def71c;
     cursor: pointer;
 }
-
+.dynamic-text-container {
+    overflow: hidden;
+  }
 .dynamic-text{
     
     /* font-family: 'Courier New', Courier, monospace; */
@@ -152,6 +154,11 @@ body {
         margin: 0 -35px 0 35px;
     }
 }
+@media (max-width: 767.98px) {
+    .dynamic-text::after{
+       
+    }
+}
 
 @media (max-width: 767.98px) {
     .custom-navbar {
@@ -159,7 +166,6 @@ body {
       right: 0;
       
     }
-    
   }
 /* SKILLS */
 .skills .skills-head{
